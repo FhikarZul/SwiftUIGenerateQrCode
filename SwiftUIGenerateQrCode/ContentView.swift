@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var qr = QRCodeGeneretor()
+    
+    @State var text = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            TextField("Enter Data", text: $text)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            
+            if text != ""{
+                Image(uiImage: qr.generate(str: text))
+                    .interpolation(.none)
+                    .resizable()
+                    .frame(width: 250, height: 250)
+                    
+            }
+        }
     }
 }
 

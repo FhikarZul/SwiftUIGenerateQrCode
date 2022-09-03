@@ -14,6 +14,7 @@
 		8D38752328C304AC00038F70 /* SwiftUIGenerateQrCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38752228C304AC00038F70 /* SwiftUIGenerateQrCodeTests.swift */; };
 		8D38752D28C304AC00038F70 /* SwiftUIGenerateQrCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38752C28C304AC00038F70 /* SwiftUIGenerateQrCodeUITests.swift */; };
 		8D38752F28C304AC00038F70 /* SwiftUIGenerateQrCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38752E28C304AC00038F70 /* SwiftUIGenerateQrCodeUITestsLaunchTests.swift */; };
+		8D38753C28C305D600038F70 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38753B28C305D600038F70 /* QRCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8D38752828C304AC00038F70 /* SwiftUIGenerateQrCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIGenerateQrCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D38752C28C304AC00038F70 /* SwiftUIGenerateQrCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGenerateQrCodeUITests.swift; sourceTree = "<group>"; };
 		8D38752E28C304AC00038F70 /* SwiftUIGenerateQrCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGenerateQrCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D38753B28C305D600038F70 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8D38751128C304A900038F70 /* SwiftUIGenerateQrCodeApp.swift */,
 				8D38751328C304A900038F70 /* ContentView.swift */,
+				8D38753B28C305D600038F70 /* QRCodeGenerator.swift */,
 				8D38751528C304AC00038F70 /* Assets.xcassets */,
 				8D38751728C304AC00038F70 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D38751428C304A900038F70 /* ContentView.swift in Sources */,
+				8D38753C28C305D600038F70 /* QRCodeGenerator.swift in Sources */,
 				8D38751228C304A900038F70 /* SwiftUIGenerateQrCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
